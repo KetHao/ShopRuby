@@ -1,0 +1,20 @@
+
+<p>
+  <strong>Name:</strong>
+  <%= @mnproduct.name_pro %>
+</p>
+
+
+
+<p>
+  <strong>Price:</strong>
+  <%= @mnproduct.price_pro %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @mnproduct.desc_pro %>
+</p>
+
+<%= link_to 'Edit', edit_mnproduct_path(@mnproduct) %> |
+<%= link_to 'Back', mnproducts_path %>
